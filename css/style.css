@@ -1,0 +1,121 @@
+
+
+
+.mynav a{
+    margin-right: 20px;    
+} 
+.mynav a:hover{
+    border-radius: 10px;
+    background:#5bc0de;
+} 
+
+/* #search-layer{
+	 
+	z-index:20; 
+	
+} */
+
+#livesearch{
+    position: absolute;
+	z-index:1; 
+    top: 100px;
+	background:#ffffff;
+	max-height:260px;
+	overflow:auto; 
+	width:40%;
+	box-shadow:0px 2px 4px #444; 
+}
+
+/*---------*/
+
+/* .carousel-inner {
+    width: 100%;
+    height: 600px;
+} */
+.carousel-inner{
+    max-height: 600px;
+} 
+.carousel-inner img{
+    max-height: 600px;
+    
+} 
+
+/*----------*/
+  .cardp img{
+    max-width: 100%;
+    height: auto;
+    background: whitesmoke;
+}
+
+/*-------*/
+
+.card-header{
+    background: linear-gradient(to right, #ccccff 0%,#0066ff 100%); 
+}
+.mycard{
+    background: linear-gradient(to right,#ffffff 10%, #99ccff 70%, #ffffff 100%);
+}
+.card-footer{
+    background: linear-gradient(to right, #0066ff 0%, #ccccff 100%);
+}
+
+
+/*------*/
+@media screen and (max-width:1250px){
+    #searchform{
+        width: 95%;
+    }
+
+}
+
+.live-outer{
+	width:100%; 
+	height:60px;
+	border-bottom:1px solid #ccc; 
+	background:#fff;
+	}
+.live-outer:hover{
+	background:#F3F3F3;
+	}
+.live-im{
+	float:left;
+	width:10%; 
+	height:60px;
+	}
+.live-im img{
+	width:100%; 
+	height:100%;
+	}
+.live-product-det{
+	float:left; 
+	width:90%; 
+	height:60px;
+	}
+.live-product-name{
+	width:100%; 
+	height:22px; 
+	margin-top:4px;
+	}
+.live-product-name p{
+	margin:0px;
+	color:#333;
+	text-shadow: 1px 1px 1px #DDDDDD;
+	font-size:17px;
+	}
+.live-product-price{
+	width:100%;
+	height:25px;
+	}
+.live-product-price-text{
+	float:left; 
+	width:50%;
+	}
+.live-product-price-text p{
+	margin:0px;
+	font-size:16px;
+	}
+.link-p-colr{
+	color:#333;
+	}
+
+	
